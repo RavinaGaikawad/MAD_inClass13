@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTripFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/addtrip_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_tripname"
+            android:layout_width="377dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="14dp"
+            android:ems="10"
+            android:hint="@string/entertripname"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_cityname"
+            android:layout_width="238dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="151dp"
+            android:ems="10"
+            android:hint="@string/searchcity"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_tripname" />
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/et_cityname"
+            app:layout_constraintTop_toBottomOf="@+id/et_tripname" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="371dp"
+            android:layout_height="448dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_search" />
+
+        <Button
+            android:id="@+id/bt_addtrip"
+            android:layout_width="221dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="96dp"
+            android:text="@string/addtrip"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

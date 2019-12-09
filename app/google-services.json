@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1014770025942",
+    "firebase_url": "https://western-emitter-260200.firebaseio.com",
+    "project_id": "western-emitter-260200",
+    "storage_bucket": "western-emitter-260200.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014770025942:android:6a1c6878db3f1491c9d077",
+        "android_client_info": {
+          "package_name": "com.example.mad_inclass13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014770025942-a2audl3h68eg2m9u001r2u3il0rjr9rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3YSYuERirByRbFCuV_FJFlChrha9_PDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014770025942-a2audl3h68eg2m9u001r2u3il0rjr9rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
